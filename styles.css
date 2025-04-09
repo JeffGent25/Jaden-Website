@@ -1,0 +1,135 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #fdf6f9;
+}
+
+header {
+    background-color: #ff99cc;
+    text-align: center;
+    padding: 40px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 50px;
+    margin: 0;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+}
+
+section {
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 900px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+#product-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #ffccff;
+    padding: 10px;
+}
+
+#product-actions {
+    text-align: center;
+}
+
+.price {
+    font-size: 24px;
+    color: #ff6600;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.buttons button {
+    margin: 10px;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-cart {
+    background-color: #ff7043;
+    color: white;
+}
+
+.btn-buy {
+    background-color: #ff5722;
+    color: white;
+}
+
+.btn-cart:hover,
+.btn-buy:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #ff99cc;
+}
+
+.review, .faq {
+    background-color: #ffe0ec;
+    border: 1px solid #ffc0cb;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.stars {
+    font-size: 18px;
+    color: gold;
+}
+
+footer {
+    background-color: #87ceeb;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+    font-weight: bold;
+    font-size: 18px;
+}
